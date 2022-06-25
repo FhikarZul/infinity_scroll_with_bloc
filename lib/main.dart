@@ -4,9 +4,7 @@ import 'package:infinity_scroll_with_bloc/comments/view/comments_page.dart';
 import 'package:infinity_scroll_with_bloc/simple_bloc_observer.dart';
 
 void main() {
-  BlocOverrides.runZoned(() {
-    return runApp(const MyApp());
-  }, blocObserver: SimpleBlocObserver());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
